@@ -18,3 +18,9 @@
 html {
   background-color: lavenderblush;
 }
+
+/* Contact Form */
+.contactForm input {
+  padding: 10px;
+  justify-content: center;
+}

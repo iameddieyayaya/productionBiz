@@ -1,0 +1,20 @@
+.navbarStyle {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbarStyle:hover {
+  font-weight: 800;
+}
+
+.instagram {
+  scale: 0.9;
+}
+
+.instagram:hover {
+  scale: 1;
+}
+
+/* Gatsby tutorial css delete */
+html {
+  background-color: lavenderblush;
+}

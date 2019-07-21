@@ -40,6 +40,8 @@ class ContactPage extends React.Component {
             top: "200px",
           }}
         >
+          <input type="hidden" name="bot-field" />
+          <input type="hidden" name="form-name" value="contact" />
           <label>
             First name
             <input

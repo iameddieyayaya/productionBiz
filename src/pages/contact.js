@@ -33,7 +33,7 @@ class ContactPage extends React.Component {
           method="POST"
           netlify-honeypot="bot-field"
           data-netlify="true"
-          onSubmit={this.handleSubmit}
+          // onSubmit={this.handleSubmit}
           style={{
             border: "1px solid red",
             position: "relative",

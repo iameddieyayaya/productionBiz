@@ -30,7 +30,7 @@ class ContactPage extends React.Component {
         <SEO title="Contact" />
         <form
           name="contact"
-          method="POST"
+          method="post"
           netlify-honeypot="bot-field"
           data-netlify="true"
           // onSubmit={this.handleSubmit}
@@ -60,6 +60,11 @@ class ContactPage extends React.Component {
               placeholder="Dylan"
             />
           </label>
+          <label>
+            Email
+            <input name="email" placeholder="cool@emai.com" type="email" />
+          </label>
+          <textarea name="message" />
           <button type="submit">Submit</button>
         </form>
       </Layout>

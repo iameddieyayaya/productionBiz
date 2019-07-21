@@ -18,7 +18,7 @@ class ContactPage extends React.Component {
     })
   }
   handleSubmit = event => {
-    event.preventDefault()
+    // event.preventDefault()
     alert(`Welcome ${this.state.firstName} ${this.state.lastName}!`)
   }
 
@@ -29,7 +29,8 @@ class ContactPage extends React.Component {
       <Layout>
         <SEO title="Contact" />
         <form
-          method="post"
+          name="contact"
+          method="POST"
           netlify-honeypot="bot-field"
           data-netlify="true"
           onSubmit={this.handleSubmit}

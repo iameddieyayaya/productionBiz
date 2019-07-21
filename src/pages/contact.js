@@ -30,9 +30,9 @@ class ContactPage extends React.Component {
         <SEO title="Contact" />
         <form
           name="contact"
-          method="post"
-          netlify-honeypot="bot-field"
+          method="POST"
           data-netlify="true"
+          // netlify-honeypot="bot-field"
           // onSubmit={this.handleSubmit}
           style={{
             border: "1px solid red",

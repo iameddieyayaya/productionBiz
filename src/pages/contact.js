@@ -19,7 +19,7 @@ class ContactPage extends React.Component {
   }
   handleSubmit = event => {
     // event.preventDefault()
-    alert(`Welcome ${this.state.firstName} ${this.state.lastName}!`)
+    console.log(`Welcome ${this.state.firstName} ${this.state.lastName}!`)
   }
 
   render() {

@@ -29,6 +29,9 @@ class ContactPage extends React.Component {
       <Layout>
         <SEO title="Contact" />
         <form
+          method="post"
+          netlify-honeypot="bot-field"
+          data-netlify="true"
           onSubmit={this.handleSubmit}
           style={{
             border: "1px solid red",
@@ -43,6 +46,7 @@ class ContactPage extends React.Component {
               name="firstName"
               value={this.state.firstName}
               onChange={this.handleInputChange}
+              placeholder="Bob"
             />
           </label>
           <label>
@@ -52,6 +56,7 @@ class ContactPage extends React.Component {
               name="lastName"
               value={this.state.lastName}
               onChange={this.handleInputChange}
+              placeholder="Dylan"
             />
           </label>
           <button type="submit">Submit</button>

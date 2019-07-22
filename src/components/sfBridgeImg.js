@@ -18,7 +18,7 @@ const SfBridgeImg = () => {
     query {
       placeholderImage: file(relativePath: { eq: "goldenstate-bridge.jpeg" }) {
         childImageSharp {
-          fluid(maxWidth: 3440, maxHeight: 1440) {
+          fluid(maxWidth: 1920, maxHeight: 1080) {
             ...GatsbyImageSharpFluid
           }
         }

@@ -18,7 +18,7 @@ const TenisImg = () => {
     query {
       placeholderImage: file(relativePath: { eq: "teniscourts.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 3440, maxHeight: 1440) {
+          fluid(maxWidth: 1920, maxHeight: 1080) {
             ...GatsbyImageSharpFluid
           }
         }

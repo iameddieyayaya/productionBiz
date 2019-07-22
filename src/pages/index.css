@@ -22,7 +22,7 @@ html {
 /* Contact Form */
 .contactForm {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
 }
 
 .contactForm label {
@@ -34,4 +34,15 @@ html {
   width: 250px;
   padding: 5px;
   margin: 6px 0;
+}
+
+@media (max-width: 768px) {
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contactForm label {
+    text-align: center;
+  }
 }

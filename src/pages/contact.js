@@ -54,14 +54,14 @@ class ContactPage extends React.Component {
           style={{
             display: "flex",
             paddingTop: "100px",
-            margin: 0,
             alignItems: "center",
             justifyContent: "space-around",
           }}
+          className="contact-wrapper"
         >
           <div style={{}}>
             <Header sectionTitle="Reach out!">
-              <p style={{ width: "20vw", height: "20vh" }}>
+              <p style={{ width: "250px" }}>
                 Thank you for taking the time to check out my website! If you
                 have any questions or would like to inquire about working
                 together I would love to connect.
@@ -77,6 +77,7 @@ class ContactPage extends React.Component {
                 value={firstName}
                 onChange={this.handleChange}
                 placeholder="Bob"
+                required
               />
             </label>
             <label>
@@ -87,6 +88,7 @@ class ContactPage extends React.Component {
                 value={lastName}
                 onChange={this.handleChange}
                 placeholder="Dylan"
+                required
               />
             </label>
             <label>
@@ -97,6 +99,7 @@ class ContactPage extends React.Component {
                 value={email}
                 onChange={this.handleChange}
                 placeholder="cool@email.com"
+                required
               />
             </label>
             <label>
@@ -106,6 +109,7 @@ class ContactPage extends React.Component {
                 value={message}
                 onChange={this.handleChange}
                 placeholder="Howdy!"
+                required
               />
             </label>
             <button type="submit">Send</button>

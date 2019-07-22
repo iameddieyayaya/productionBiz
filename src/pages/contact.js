@@ -53,7 +53,7 @@ class ContactPage extends React.Component {
         <div
           style={{
             display: "flex",
-            paddingTop: "100px",
+            padding: `1.45rem 1.0875rem`,
             alignItems: "center",
             justifyContent: "space-around",
           }}

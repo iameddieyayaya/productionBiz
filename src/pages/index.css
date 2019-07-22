@@ -20,7 +20,18 @@ html {
 }
 
 /* Contact Form */
+.contactForm {
+  display: flex;
+  flex-flow: column;
+}
+
+.contactForm label {
+  width: 250px;
+  margin: 12px 0;
+}
+
 .contactForm input {
-  padding: 10px;
-  justify-content: center;
+  width: 250px;
+  padding: 5px;
+  margin: 6px 0;
 }

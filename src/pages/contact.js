@@ -53,73 +53,62 @@ class ContactPage extends React.Component {
         <div
           style={{
             display: "flex",
-            padding: "100px",
+            paddingTop: "100px",
+            margin: 0,
+            alignItems: "center",
+            justifyContent: "space-around",
           }}
         >
-          <div style={{ margin: "0 auto" }}>
+          <div style={{}}>
             <Header sectionTitle="Reach out!">
-              <p style={{ width: "20vw" }}>
+              <p style={{ width: "20vw", height: "20vh" }}>
                 Thank you for taking the time to check out my website! If you
                 have any questions or would like to inquire about working
                 together I would love to connect.
               </p>
             </Header>
           </div>
-          <form
-            onSubmit={this.handleSubmit}
-            style={{ margin: "0 auto" }}
-            className="contactForm"
-          >
-            <p>
-              <label>
-                First Name:{" "}
-                <input
-                  type="text"
-                  name="firstName"
-                  value={firstName}
-                  onChange={this.handleChange}
-                  placeholder="Bob"
-                />
-              </label>
-            </p>
-            <p>
-              <label>
-                Last Name:{" "}
-                <input
-                  type="text"
-                  name="lastName"
-                  value={lastName}
-                  onChange={this.handleChange}
-                  placeholder="Dylan"
-                />
-              </label>
-            </p>
-            <p>
-              <label>
-                Your Email:{" "}
-                <input
-                  type="email"
-                  name="email"
-                  value={email}
-                  onChange={this.handleChange}
-                  placeholder="cool@email.com"
-                />
-              </label>
-            </p>
-            <p>
-              <label>
-                Message:{" "}
-                <textarea
-                  name="message"
-                  value={message}
-                  onChange={this.handleChange}
-                  placeholder="Howdy!"
-                />
-              </label>
-            </p>
-            <p>
-              <button type="submit">Send</button>
-            </p>
+          <form onSubmit={this.handleSubmit} className="contactForm">
+            <label>
+              First Name:{" "}
+              <input
+                type="text"
+                name="firstName"
+                value={firstName}
+                onChange={this.handleChange}
+                placeholder="Bob"
+              />
+            </label>
+            <label>
+              Last Name:{" "}
+              <input
+                type="text"
+                name="lastName"
+                value={lastName}
+                onChange={this.handleChange}
+                placeholder="Dylan"
+              />
+            </label>
+            <label>
+              Your Email:{" "}
+              <input
+                type="email"
+                name="email"
+                value={email}
+                onChange={this.handleChange}
+                placeholder="cool@email.com"
+              />
+            </label>
+            <label>
+              Message:{" "}
+              <textarea
+                name="message"
+                value={message}
+                onChange={this.handleChange}
+                placeholder="Howdy!"
+              />
+            </label>
+            <button type="submit">Send</button>
           </form>
         </div>
       </Layout>

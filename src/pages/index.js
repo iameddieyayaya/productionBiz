@@ -9,8 +9,6 @@ import Poop from "../components/poop"
 import Container from "../components/container"
 import Button from "../components/button"
 
-import coolbeans from "../images/coolbeans.gif"
-
 import "./index.css"
 
 const IndexPage = props => (
@@ -39,7 +37,6 @@ const IndexPage = props => (
         alignItems: "center",
       }}
     >
-      <img src={coolbeans} alt="Coolbeans" style={{ width: "25%" }} />
       <p
         style={{
           justifyContent: "center",

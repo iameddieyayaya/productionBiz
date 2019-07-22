@@ -14,6 +14,10 @@
   scale: 1;
 }
 
+button:hover {
+  border: 1px solid black;
+}
+
 /* Gatsby tutorial css delete */
 html {
   background-color: lavenderblush;

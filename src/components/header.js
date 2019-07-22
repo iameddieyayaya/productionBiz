@@ -13,7 +13,6 @@ const Header = ({ sectionTitle, children }) => (
     <h2 style={{ margin: "0 0 .8rem", fontSize: "2rem" }}>{sectionTitle}</h2>
     <div
       style={{
-        // fontSize: "22px",
         textAlign: "justify",
         lineHeight: "1.5",
       }}

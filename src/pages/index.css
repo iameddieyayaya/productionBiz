@@ -35,6 +35,11 @@ html {
   padding: 5px;
   margin: 6px 0;
 }
+.contactForm textarea {
+  width: 250px;
+  padding: 5px;
+  margin: 6px 0;
+}
 
 @media (max-width: 768px) {
   .contact-wrapper {

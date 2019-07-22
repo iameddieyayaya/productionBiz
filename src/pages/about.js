@@ -10,7 +10,7 @@ const AboutPage = () => (
     <SEO title="About" />
     <EddieImg />
     <Header sectionTitle="Eduardo Gómez">
-      <p style={{ width: "500px", margin: "0 auto" }}>
+      <p style={{ width: "75vw", margin: "0 auto" }}>
         Eduardo Gomez completed the Bachelors of Arts in Music with an emphasis
         in Recording Arts and Technology at Chico State in 2018. This program
         taught him the ins and outs of creating high quality content in the

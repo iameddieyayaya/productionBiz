@@ -57,7 +57,6 @@ const Layout = ({ children }) => {
             position: "absolute",
             width: "100%",
             top: "5vh",
-            border: "2px solid green",
             height: "100vh",
           }}
         >

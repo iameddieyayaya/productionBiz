@@ -25,9 +25,8 @@ const Real_Estate_Imgs = () => (
       <div
         style={{
           margin: "0 auto",
-          border: "2px solid red",
           display: "grid",
-          gridGap: "10px",
+          gridGap: ".5rem",
         }}
       >
         {data.source.edges.map(({ node }, i) => (

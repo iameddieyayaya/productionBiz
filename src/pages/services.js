@@ -9,11 +9,7 @@ const ServicesPage = () => {
   return (
     <Layout>
       <SEO title="Services" />
-      <div
-        style={{
-          border: "2px solid magenta",
-        }}
-      >
+      <div style={{}}>
         <Header sectionTitle="Real Estate">
           <Real_Estate_Imgs />
         </Header>

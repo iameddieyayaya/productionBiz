@@ -15,13 +15,13 @@ const AboutPage = () => (
         in Recording Arts and Technology at Chico State in 2018. This program
         taught him the ins and outs of creating high quality content in the
         studio with post production techniques for both audio recordings and
-        videos. As well as, working in live sound running and setting up sound.
-        For example, he has worked with Lake Street Dive, Pink Martini, Lee Ann
-        Womack, Booker T. Jones, Buddy Guy, Chris Cain, Tony Lindsay (Santana),
-        Antonio Sanchez (Birdman), Graham Nash, Tyler Childers, Lillie Mae, Enso
-        String Quartet, Tower of Power, Mexrrissey, La Santa Cecilia, Mariachi
-        Flor de Toloache, Lysander Piano Trio, North State Symphony, BORGORE,
-        TOKiMONSTA, ZHU, DJ Carnage.
+        videos. As well as, working in live sound. For instance, he has worked
+        with Lake Street Dive, Pink Martini, Lee Ann Womack, Booker T. Jones,
+        Buddy Guy, Chris Cain, Tony Lindsay (Santana), Antonio Sanchez
+        (Birdman), Graham Nash, Tyler Childers, Lillie Mae, Enso String Quartet,
+        Tower of Power, Mexrrissey, La Santa Cecilia, Mariachi Flor de Toloache,
+        Lysander Piano Trio, North State Symphony, BORGORE, TOKiMONSTA, ZHU, DJ
+        Carnage.
       </p>
     </Header>
   </Layout>

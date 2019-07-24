@@ -26,12 +26,7 @@ const TenisImg = () => {
     }
   `)
 
-  return (
-    <Img
-      fluid={data.placeholderImage.childImageSharp.fluid}
-      style={{ marginTop: "5vh" }}
-    />
-  )
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default TenisImg

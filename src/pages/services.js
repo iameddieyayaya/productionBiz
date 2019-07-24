@@ -2,13 +2,24 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Header from "../components/header"
+import Real_Estate_Imgs from "../components/real_estate_imgs"
 
-const ServicesPage = () => (
-  <Layout>
-    <SEO title="Services" />
-    <h1>Services Page</h1>
-    <p> asdsdaklsdlasdkasdad</p>
-  </Layout>
-)
+const ServicesPage = () => {
+  return (
+    <Layout>
+      <SEO title="Services" />
+      <div
+        style={{
+          border: "2px solid magenta",
+        }}
+      >
+        <Header sectionTitle="Real Estate">
+          <Real_Estate_Imgs />
+        </Header>
+      </div>
+    </Layout>
+  )
+}
 
 export default ServicesPage

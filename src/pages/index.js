@@ -17,9 +17,9 @@ const IndexPage = props => (
     <SEO title="Home" />
     <Header sectionTitle="Let's Create">
       If you have a story to tell, we can help you create it. Commericals,
-      podcast, product videos, company culture, event coverage, aerial, you name
-      it! When it comes to engaging, eye catching, and emotionaly-impactful
-      content. We got you covered!
+      podcast, voiceovers, product videos, company culture, event coverage,
+      aerial, you name it! When it comes to engaging, eye catching, and
+      emotionaly-impactful content. We got you covered!
       <br />
       <div style={{ textAlign: "center" }}>
         <Button title="Make it happen!" />
@@ -47,7 +47,7 @@ const IndexPage = props => (
         Great video content should be{" "}
         <strong>tailor-made for a specific purpose. </strong>
         Our mission is to create video content that has authentic storytelling,
-        is high quality and compelling, while paying attention to detail and
+        is compelling and high quality, while paying attention to detail and
         actually giving a damn!
       </p>
     </div>

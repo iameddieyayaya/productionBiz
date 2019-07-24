@@ -51,7 +51,18 @@ const Layout = ({ children }) => {
           zIndex: -1,
         }}
       >
-        <main>{children}</main>
+        <main
+          style={{
+            margin: `0 auto`,
+            position: "absolute",
+            width: "100%",
+            top: "5vh",
+            border: "2px solid green",
+            height: "100vh",
+          }}
+        >
+          {children}
+        </main>
         <Footer />
       </div>
     </>

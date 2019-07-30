@@ -33,19 +33,3 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 }
-
-module.exports = {
-  plugins: [
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Bangers`,
-            subsets: [`latin`],
-          },
-        ],
-      },
-    },
-  ],
-}

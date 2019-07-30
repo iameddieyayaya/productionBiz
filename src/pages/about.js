@@ -20,7 +20,7 @@ const AboutPage = () => (
         Buddy Guy, Chris Cain, Tony Lindsay (Santana), Antonio Sanchez
         (Birdman), Graham Nash, Tyler Childers, Lillie Mae, Enso String Quartet,
         Tower of Power, Mexrrissey, La Santa Cecilia, Mariachi Flor de Toloache,
-        Lysander Piano Trio, North State Symphony, BORGORE, TOKiMONSTA, ZHU, DJ
+        Lysander Piano Trio, North State Symphony, Borgore, Tokimonsta, Zhu, DJ
         Carnage.
       </p>
     </Header>

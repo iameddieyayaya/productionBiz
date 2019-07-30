@@ -1,13 +1,12 @@
 import React from "react"
-import { Helmet } from "react-helmet"
+// import { Helmet } from "react-helmet"
 
 import Header from "../components/header"
 import Layout from "../components/layout"
 import TenisImg from "../components/tenisImg"
 import SEO from "../components/seo"
-import Poop from "../components/poop"
-import Container from "../components/container"
 import Button from "../components/button"
+import * as serviceWorker from "./serviceWorker"
 
 import "./index.css"
 
@@ -57,3 +56,8 @@ const IndexPage = props => (
 )
 
 export default IndexPage
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister()

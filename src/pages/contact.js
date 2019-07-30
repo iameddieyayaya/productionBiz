@@ -5,6 +5,9 @@ import SEO from "../components/seo"
 import Header from "../components/header"
 import SfBridgeImg from "../components/sfBridgeImg"
 
+import mailImg from "../images/icons/mail.png"
+import phoneImg from "../images/icons/phone.png"
+
 const encode = data => {
   return Object.keys(data)
     .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
@@ -54,11 +57,20 @@ class ContactPage extends React.Component {
           style={{
             display: "flex",
             padding: `1.45rem 1.0875rem`,
-            alignItems: "center",
             justifyContent: "space-around",
           }}
           className="contact-wrapper"
         >
+          <p style={{}}>
+            <img src={mailImg} alt="email" style={{ width: "2vw" }} />
+            <a href="mailto:eddieegomez4@gmail.com">
+              eddieegomez@gmail.com
+            </a>{" "}
+            <br />
+            <img src={phoneImg} alt="cell" style={{ width: "2vw" }} /> (619)
+            289-1591
+          </p>
+
           <div style={{}}>
             <Header sectionTitle="Reach out!">
               <p style={{ width: "250px" }}>

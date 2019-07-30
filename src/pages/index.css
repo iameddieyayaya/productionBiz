@@ -1,5 +1,5 @@
 .navbarStyle {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Bangers";
 }
 
 .navbarStyle:hover {
@@ -18,7 +18,6 @@ button:hover {
   border: 1px solid black;
 }
 
-/* Gatsby tutorial css delete */
 html {
   background-color: lavenderblush;
 }
@@ -45,6 +44,22 @@ html {
   margin: 6px 0;
 }
 
+.services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 100px 0;
+}
+
+.services li {
+  /* text-align: center; */
+  list-style: none;
+}
+
+.sevice-item {
+  border-right: 1px solid black;
+}
+
+/* RESPONSIVE For Moblie */
 @media (max-width: 768px) {
   .contact-wrapper {
     display: flex;
@@ -54,4 +69,17 @@ html {
   .contactForm label {
     text-align: center;
   }
+
+  .services {
+    display: block;
+  }
+  .sevice-item {
+    border: none;
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Bangers";
 }

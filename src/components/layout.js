@@ -10,7 +10,6 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 
-import Header from "./header"
 import Menu from "./menu"
 import Footer from "./footer"
 import "./layout.css"

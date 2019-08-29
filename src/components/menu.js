@@ -19,8 +19,9 @@ const Menu = () => (
         paddingTop: "1vh",
       }}
     >
+      <li>NOISE GROUP</li>
       <li className="navbarStyle">
-        <Link to="/">Home</Link>
+        <Link to="/">Production</Link>
       </li>
       <li className="navbarStyle">
         <Link to="/about">About</Link>

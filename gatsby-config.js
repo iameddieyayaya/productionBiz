@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Coolbeans Productions`,
-    description: `Professional production company based in San Diego, California. Audio Recordings, Videography and Drone services`,
+    title: `Noise Group`,
+    description: `Professional production company based in San Diego, California. Specializing in Audio recordings, videography, drone videography and photography`,
     author: `Eduardo Gomez`,
   },
   plugins: [

@@ -19,13 +19,14 @@ button:hover {
 }
 
 html {
-  background-color: lavenderblush;
+  background-color: #fff;
 }
 
 /* Contact Form */
 .contactForm {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .contactForm label {
@@ -44,19 +45,19 @@ html {
   margin: 6px 0;
 }
 
+/* Services Page  */
 .services {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin: 100px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .services li {
-  /* text-align: center; */
   list-style: none;
 }
 
 .sevice-item {
-  border-right: 1px solid black;
+  padding: 10px;
 }
 
 /* RESPONSIVE For Moblie */
@@ -76,10 +77,4 @@ html {
   .sevice-item {
     border: none;
   }
-}
-
-h1,
-h2,
-h3 {
-  font-family: "Bangers";
 }

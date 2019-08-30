@@ -14,10 +14,10 @@ const IndexPage = props => (
     <TenisImg title="Header image" alt="Tenis Courts" />
     <SEO title="Production" />
     <Header sectionTitle="Let's Create">
-      Creating custom content is our passion. Commericals, podcast, voiceovers,
-      product videos, company culture, event coverage, aerial, you name it! When
-      it comes to engaging, eye catching, and emotionaly-impactful content. We
-      got you covered!
+      Creating custom content is our passion. Commericals, podcast, web
+      development, product videos, company culture, event coverage, aerial, SEO,
+      you name it! When it comes to engaging, eye catching, and
+      emotionaly-impactful content. We got you covered!
       <br />
       <div style={{ textAlign: "center" }}>
         <Button title="Make it happen!" />
@@ -49,37 +49,35 @@ const IndexPage = props => (
         actually giving a damn. So, Lets go make a ruckus!
       </p>
     </div>
-    <div>
-      <h1>Professional Web Content</h1>
-      <h2>Our Skills for your project</h2>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-around",
-          alignSelf: "center",
-        }}
-      >
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-          <Header sectionTitle="High quality recordings">
-            Available to record a two person podcast up to a full size band. As
-            well as, provide mixing and mastering.
-          </Header>
-        </div>
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-          <Header sectionTitle="Custom Drone Videograhy">
-            In need of custom aerial footage? Licensed and insured drone
-            operator and videographer. Level up your promotional footage by
-            adding a stunning aerial perspective to your work.
-          </Header>
-        </div>
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-          <Header sectionTitle="Custom Promotional Film & Video">
-            We love to bring your story to the screen. From promotional footage
-            to short films, our team goes the extra mile to deliver jaw-dropping
-            results. 4K resolution? Lighting and sound? We offer all of the
-            above and so much more.
-          </Header>
-        </div>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "space-around",
+      }}
+    >
+      <div style={{ width: "20vw" }}>
+        <Header sectionTitle="Promotional Film & Video"></Header>
+        <p>
+          We love to bring your story to the screen. From promotional footage to
+          short films, our team goes the extra mile to deliver jaw-dropping
+          results. 4K resolution? Lighting and sound? We offer all of the above
+          and so much more.
+        </p>
+      </div>
+      <div style={{ width: "20vw" }}>
+        <Header sectionTitle="Drone"></Header>
+        <p>
+          In need of custom aerial footage? Licensed and insured drone operator
+          and videographer. Level up your promotional footage by adding a
+          stunning aerial perspective to your work.
+        </p>
+      </div>
+      <div style={{ width: "20vw" }}>
+        <Header sectionTitle="Web Development"></Header>
+        <p>
+          Need a website? We can help you create beautiful websites for you
+          business.
+        </p>
       </div>
     </div>
   </Layout>

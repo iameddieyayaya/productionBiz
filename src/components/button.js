@@ -5,10 +5,12 @@ import { Link } from "gatsby"
 const Button = ({ title }) => (
   <button
     style={{
+      border: "1px solid black",
       padding: "0.4em 2em 0.6em",
       fontSize: "26px",
       marginTop: "1em",
       cursor: "pointer",
+      background: "#fff",
     }}
   >
     <Link to="/contact">{title}</Link>

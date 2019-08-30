@@ -23,14 +23,15 @@ const Menu = () => (
       <li className="navbarStyle">
         <Link to="/">Production</Link>
       </li>
-      <li className="navbarStyle">
+      {/* Debating whether to have this */}
+      {/* <li className="navbarStyle">
         <Link to="/about">About</Link>
-      </li>
-      <li className="navbarStyle">
+      </li> */}
+      {/* <li className="navbarStyle">
         <Link to="/services">Services</Link>
-      </li>
+      </li> */}
       <li className="navbarStyle">
-        <Link to="/contact">Contact</Link>
+        <Link to="/contact">Hire Us</Link>
       </li>
       <li className="instagram">
         <a

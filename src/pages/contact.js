@@ -61,16 +61,6 @@ class ContactPage extends React.Component {
           }}
           className="contact-wrapper"
         >
-          <p style={{}}>
-            <img src={mailImg} alt="email" style={{ width: "2vw" }} />
-            <a href="mailto:eddieegomez4@gmail.com">
-              eddieegomez@gmail.com
-            </a>{" "}
-            <br />
-            <img src={phoneImg} alt="cell" style={{ width: "2vw" }} /> (619)
-            289-1591
-          </p>
-
           <div style={{}}>
             <Header sectionTitle="Reach out!">
               <p style={{ width: "250px" }}>
@@ -126,6 +116,15 @@ class ContactPage extends React.Component {
             </label>
             <button type="submit">Send</button>
           </form>
+          <p style={{}}>
+            <img src={mailImg} alt="email" style={{ width: "2vw" }} />
+            <a href="mailto:eddieegomez4@gmail.com">
+              eddieegomez@gmail.com
+            </a>{" "}
+            <br />
+            <img src={phoneImg} alt="cell" style={{ width: "2vw" }} /> (619)
+            289-1591
+          </p>
         </div>
       </Layout>
     )

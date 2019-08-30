@@ -7,7 +7,7 @@ const Card = ({ sectionTitle, children }) => (
       display: "flex",
     }}
   >
-    <h2 style={{ fontSize: "5rem" }}>{sectionTitle}</h2>
+    <h1 style={{ fontSize: "3rem" }}>{sectionTitle}</h1>
     <div> {children}</div>
   </div>
 )

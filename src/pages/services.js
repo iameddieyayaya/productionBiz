@@ -11,7 +11,6 @@ const ServicesPage = () => {
   return (
     <Layout>
       <SEO title="Services" />
-      <ServicesImg />
       <div className="services">
         <div className="sevice-item">
           <Link to="/audio/">
@@ -42,20 +41,15 @@ const ServicesPage = () => {
             <Card sectionTitle="Drone">
               <ul>
                 <li>Aerial Videography & Photography</li>
-              </ul>
-            </Card>
-          </Link>
-        </div>
-        <div>
-          <Link to="/realestate/">
-            <Card sectionTitle="Real Estate">
-              <ul>
-                <li>Videography & Photography</li>
+                <Link to="/realestate/">
+                  <li>Real Estate</li>
+                </Link>
               </ul>
             </Card>
           </Link>
         </div>
       </div>
+      <ServicesImg />
     </Layout>
   )
 }

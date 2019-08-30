@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Noise Group`,
-    description: `Professional production company based in San Diego, California. Specializing in Audio recordings, videography, drone videography and photography`,
+    description: `Professional web content company based in San Diego, California. Specializing in video, drone, and web development`,
     author: `Eduardo Gomez`,
   },
   plugins: [
@@ -32,6 +32,12 @@ module.exports = {
       options: {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
         trackingId: "UA-146649191-1",
+      },
+    },
+    {
+      resolve: `gatsby-source-instagram-all`,
+      options: {
+        access_token: "10731721005.1677ed0.dd3dc2cf7b6649a485faf712d06f4fee",
       },
     },
 

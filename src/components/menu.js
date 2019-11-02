@@ -38,6 +38,7 @@ const Menu = () => (
           href="https://www.instagram.com/everythinmatters/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="IG: @everythinmatters"
         >
           <FontAwesomeIcon icon={faInstagram} color="#c32aa3" size="lg" />
         </a>

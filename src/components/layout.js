@@ -60,8 +60,8 @@ const Layout = ({ children }) => {
           }}
         >
           {children}
+          <Footer />
         </main>
-        <Footer />
       </div>
     </>
   )

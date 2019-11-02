@@ -22,6 +22,26 @@ html {
   background-color: #fff;
 }
 
+/* Home Page */
+.servicesCard-container {
+  display: flex;
+  justify-content: center;
+}
+
+.servicesCard-items {
+  width: 100%;
+  border: 1px solid #ccc;
+  box-shadow: 3px 4px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.servicesCard-img {
+  max-width: 100%;
+}
+
+.servicesCard-text {
+  padding: 0 20px 20px;
+}
+
 /* Contact Form */
 .contactForm {
   display: flex;

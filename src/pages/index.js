@@ -4,6 +4,9 @@ import React from "react"
 import Header from "../components/header"
 import Layout from "../components/layout"
 import TenisImg from "../components/tenisImg"
+import ServicesImg from "../components/servicesImg"
+import ChildrenspoolImg from "../components/childrenspoolImg"
+import WebdevImg from "../components/webdevImg"
 import SEO from "../components/seo"
 import Button from "../components/button"
 
@@ -46,35 +49,36 @@ const IndexPage = props => (
         <strong>tailor-made for a specific purpose. </strong>
         Our mission is to create video content that has authentic storytelling,
         is compelling and high quality, while paying attention to detail and
-        actually giving a damn. So, Lets go make a ruckus!
+        actually giving a damn. So, lets go make a ruckus!
       </p>
     </div>
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "space-around",
-      }}
-    >
-      <div style={{ width: "20vw" }}>
-        <Header sectionTitle="Promotional Film & Video"></Header>
-        <p>
+    <div className="servicesCard-container">
+      <div className="servicesCard-items">
+        <Header sectionTitle="Promotional Film & Video">
+          <ServicesImg className="servicesCard-img" />
+        </Header>
+        <p className="servicesCard-text">
           We love to bring your story to the screen. From promotional footage to
           short films, our team goes the extra mile to deliver jaw-dropping
           results. 4K resolution? Lighting and sound? We offer all of the above
           and so much more.
         </p>
       </div>
-      <div style={{ width: "20vw" }}>
-        <Header sectionTitle="Drone"></Header>
-        <p>
+      <div className="servicesCard-items">
+        <Header sectionTitle="Drone">
+          <ChildrenspoolImg className="servicesCard-img" />
+        </Header>
+        <p className="servicesCard-text">
           In need of custom aerial footage? Licensed and insured drone operator
           and videographer. Level up your promotional footage by adding a
           stunning aerial perspective to your work.
         </p>
       </div>
-      <div style={{ width: "20vw" }}>
-        <Header sectionTitle="Web Development"></Header>
-        <p>
+      <div className="servicesCard-items">
+        <Header sectionTitle="Web Development">
+          <WebdevImg className="servicesCard-img" />
+        </Header>
+        <p className="servicesCard-text">
           Need a website? We can help you create beautiful websites for you
           business.
         </p>

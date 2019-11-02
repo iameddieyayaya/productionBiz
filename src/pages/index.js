@@ -1,5 +1,4 @@
 import React from "react"
-// import { Helmet } from "react-helmet"
 
 import Header from "../components/header"
 import Layout from "../components/layout"
@@ -79,7 +78,7 @@ const IndexPage = props => (
           <WebdevImg className="servicesCard-img" />
         </Header>
         <p className="servicesCard-text">
-          Need a website? We can help you create beautiful websites for you
+          Need a website? We can help you create beautiful websites for your
           business.
         </p>
       </div>

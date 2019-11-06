@@ -23,15 +23,12 @@ html {
 }
 
 /* Home Page */
-.servicesCard-container {
-  display: flex;
-  justify-content: center;
-}
 
 .servicesCard-items {
   width: 100%;
   border: 1px solid #ccc;
   box-shadow: 3px 4px 6px 0px rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
 }
 
 .servicesCard-img {
@@ -96,5 +93,14 @@ html {
   }
   .sevice-item {
     border: none;
+  }
+}
+
+/* Desktop Responsive */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .servicesCard-container {
+    display: flex;
+    justify-content: center;
   }
 }

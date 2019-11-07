@@ -26,7 +26,12 @@ const TenisImg = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      alt="tenis court"
+    />
+  )
 }
 
 export default TenisImg

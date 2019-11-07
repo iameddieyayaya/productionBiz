@@ -15,7 +15,12 @@ const WebdevImg = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      alt="web development"
+    />
+  )
 }
 
 export default WebdevImg

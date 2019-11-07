@@ -53,7 +53,7 @@ const IndexPage = props => (
     </div>
     <div className="servicesCard-container">
       <div className="servicesCard-items">
-        <Header sectionTitle="Promotional Film & Video">
+        <Header sectionTitle="Video & Audio">
           <ServicesImg className="servicesCard-img" />
         </Header>
         <p className="servicesCard-text">

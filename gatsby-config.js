@@ -39,7 +39,7 @@ module.exports = {
       options: {
         name: "GatsbyJS",
         short_name: "GatsbyJS",
-        start_url: "./",
+        start_url: "https://noisegroupproductions.com/",
         background_color: "#6b37bf",
         theme_color: "#6b37bf",
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
